@@ -1,0 +1,8 @@
+//
+// Created by dmitr on 14.10.2023.
+//
+
+#ifndef PROJECT_MYTRANSLATORNUM_H
+#define PROJECT_MYTRANSLATORNUM_H
+
+#endif //PROJECT_MYTRANSLATORNUM_H

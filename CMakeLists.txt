@@ -1,0 +1,37 @@
+cmake_minimum_required(VERSION 3.24)
+project(Algorithm_And_Data_Structure)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_library(
+        mystring
+        mystring/mystring.cpp
+        mystring/mystring.h
+)
+
+add_library(
+        mytranslatornum
+        mytranslatornum/mytranslatornum.cpp
+        mytranslatornum/mytranslatornum.h
+)
+
+
+add_library(
+        tests
+        tests/test_mystring.cpp
+        tests/test_mystring.h
+        tests/test_mytranslatornum.cpp
+        tests/test_mytranslatornum.h
+)
+
+add_executable(
+        main
+        main.cpp
+)
+
+target_link_libraries(
+        main
+        tests
+        mystring
+        mytranslatornum
+)
