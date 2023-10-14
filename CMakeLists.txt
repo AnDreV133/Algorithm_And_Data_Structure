@@ -15,6 +15,11 @@ add_library(
         mytranslatornum/mytranslatornum.h
 )
 
+add_library(
+        mysorts
+        mysorts/mysorts.cpp
+        mysorts/mysorts.h
+)
 
 add_library(
         tests
@@ -22,6 +27,8 @@ add_library(
         tests/test_mystring.h
         tests/test_mytranslatornum.cpp
         tests/test_mytranslatornum.h
+        tests/test_mysorts.cpp
+        tests/test_mysorts.h
 )
 
 add_executable(

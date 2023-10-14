@@ -103,6 +103,37 @@ build libmytranslatornum.a: CXX_STATIC_LIBRARY_LINKER__mytranslatornum_Debug CMa
   TARGET_PDB = mytranslatornum.a.dbg
 
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target mysorts
+
+
+#############################################
+# Order-only phony target for mysorts
+
+build cmake_object_order_depends_target_mysorts: phony || CMakeFiles/mysorts.dir
+
+build CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj: CXX_COMPILER__mysorts_Debug T$:/c$ github$ pc/Algorithm_And_Data_Structure/mysorts/mysorts.cpp || cmake_object_order_depends_target_mysorts
+  DEP_FILE = CMakeFiles\mysorts.dir\mysorts\mysorts.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\mysorts.dir
+  OBJECT_FILE_DIR = CMakeFiles\mysorts.dir\mysorts
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target mysorts
+
+
+#############################################
+# Link the static library libmysorts.a
+
+build libmysorts.a: CXX_STATIC_LIBRARY_LINKER__mysorts_Debug CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\mysorts.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libmysorts.a
+  TARGET_PDB = mysorts.a.dbg
+
+# =============================================================================
 # Object build statements for STATIC_LIBRARY target tests
 
 
@@ -123,6 +154,12 @@ build CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj: CXX_COMPILER__tes
   OBJECT_DIR = CMakeFiles\tests.dir
   OBJECT_FILE_DIR = CMakeFiles\tests.dir\tests
 
+build CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj: CXX_COMPILER__tests_Debug T$:/c$ github$ pc/Algorithm_And_Data_Structure/tests/test_mysorts.cpp || cmake_object_order_depends_target_tests
+  DEP_FILE = CMakeFiles\tests.dir\tests\test_mysorts.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\tests.dir\tests
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target tests
@@ -131,7 +168,7 @@ build CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj: CXX_COMPILER__tes
 #############################################
 # Link the static library libtests.a
 
-build libtests.a: CXX_STATIC_LIBRARY_LINKER__tests_Debug CMakeFiles/tests.dir/tests/test_mystring.cpp.obj CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj
+build libtests.a: CXX_STATIC_LIBRARY_LINKER__tests_Debug CMakeFiles/tests.dir/tests/test_mystring.cpp.obj CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\tests.dir
   POST_BUILD = cd .
@@ -200,6 +237,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build main: phony main.exe
 
+build mysorts: phony libmysorts.a
+
 build mystring: phony libmystring.a
 
 build mytranslatornum: phony libmytranslatornum.a
@@ -214,7 +253,7 @@ build tests: phony libtests.a
 #############################################
 # Folder: T:/c github pc/Algorithm_And_Data_Structure/cmake-build-debug
 
-build all: phony libmystring.a libmytranslatornum.a libtests.a main.exe
+build all: phony libmystring.a libmytranslatornum.a libmysorts.a libtests.a main.exe
 
 # =============================================================================
 # Built-in targets
