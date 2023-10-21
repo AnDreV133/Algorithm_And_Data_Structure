@@ -23,6 +23,6 @@ double getFloatFromBin(const char *begin, const char *end);
 
 double getFloatFromBinInSimplePresentation(const char *begin, const char *end);
 
-long long getIntFromBinInSimplePresentation(const char *begin, const char *end;
+long long getIntFromBinInSimplePresentation(const char *begin, const char *end);
 
 #endif //PROJECT_MYTRANSLATORNUM_H
