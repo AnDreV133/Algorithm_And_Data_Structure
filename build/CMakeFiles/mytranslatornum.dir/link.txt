@@ -1,0 +1,2 @@
+C:/Users/dmitr/gcc/bin/ar.exe qc libmytranslatornum.a CMakeFiles/mytranslatornum.dir/mytranslatornum/mytranslatornum.cpp.obj
+C:/Users/dmitr/gcc/bin/ranlib.exe libmytranslatornum.a
