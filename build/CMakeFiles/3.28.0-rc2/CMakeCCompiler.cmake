@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "c:/users/dmitr/gcc/bin/gcc.exe")
+set(CMAKE_C_COMPILER "C:/Users/dmitr/gcc/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "13.2.0")

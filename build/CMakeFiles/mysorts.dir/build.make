@@ -73,15 +73,15 @@ CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj: CMakeFiles/mysorts.dir/flags.mak
 CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj: T:/c\ github\ pc/Algorithm_And_Data_Structure/mysorts/mysorts.cpp
 CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj: CMakeFiles/mysorts.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj -MF CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj.d -o CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/mysorts/mysorts.cpp"
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj -MF CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj.d -o CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/mysorts/mysorts.cpp"
 
 CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.i"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/mysorts/mysorts.cpp" > CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.i
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/mysorts/mysorts.cpp" > CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.i
 
 CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.s"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/mysorts/mysorts.cpp" -o CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.s
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/mysorts/mysorts.cpp" -o CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.s
 
 # Object files for target mysorts
 mysorts_OBJECTS = \

@@ -73,15 +73,15 @@ CMakeFiles/mystring.dir/mystring/mystring.cpp.obj: CMakeFiles/mystring.dir/flags
 CMakeFiles/mystring.dir/mystring/mystring.cpp.obj: T:/c\ github\ pc/Algorithm_And_Data_Structure/mystring/mystring.cpp
 CMakeFiles/mystring.dir/mystring/mystring.cpp.obj: CMakeFiles/mystring.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mystring.dir/mystring/mystring.cpp.obj"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mystring.dir/mystring/mystring.cpp.obj -MF CMakeFiles/mystring.dir/mystring/mystring.cpp.obj.d -o CMakeFiles/mystring.dir/mystring/mystring.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/mystring/mystring.cpp"
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mystring.dir/mystring/mystring.cpp.obj -MF CMakeFiles/mystring.dir/mystring/mystring.cpp.obj.d -o CMakeFiles/mystring.dir/mystring/mystring.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/mystring/mystring.cpp"
 
 CMakeFiles/mystring.dir/mystring/mystring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mystring.dir/mystring/mystring.cpp.i"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/mystring/mystring.cpp" > CMakeFiles/mystring.dir/mystring/mystring.cpp.i
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/mystring/mystring.cpp" > CMakeFiles/mystring.dir/mystring/mystring.cpp.i
 
 CMakeFiles/mystring.dir/mystring/mystring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mystring.dir/mystring/mystring.cpp.s"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/mystring/mystring.cpp" -o CMakeFiles/mystring.dir/mystring/mystring.cpp.s
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/mystring/mystring.cpp" -o CMakeFiles/mystring.dir/mystring/mystring.cpp.s
 
 # Object files for target mystring
 mystring_OBJECTS = \

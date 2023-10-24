@@ -73,43 +73,43 @@ CMakeFiles/tests.dir/tests/test_mystring.cpp.obj: CMakeFiles/tests.dir/flags.mak
 CMakeFiles/tests.dir/tests/test_mystring.cpp.obj: T:/c\ github\ pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp
 CMakeFiles/tests.dir/tests/test_mystring.cpp.obj: CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tests.dir/tests/test_mystring.cpp.obj"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/test_mystring.cpp.obj -MF CMakeFiles/tests.dir/tests/test_mystring.cpp.obj.d -o CMakeFiles/tests.dir/tests/test_mystring.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp"
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/test_mystring.cpp.obj -MF CMakeFiles/tests.dir/tests/test_mystring.cpp.obj.d -o CMakeFiles/tests.dir/tests/test_mystring.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp"
 
 CMakeFiles/tests.dir/tests/test_mystring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/test_mystring.cpp.i"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp" > CMakeFiles/tests.dir/tests/test_mystring.cpp.i
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp" > CMakeFiles/tests.dir/tests/test_mystring.cpp.i
 
 CMakeFiles/tests.dir/tests/test_mystring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/test_mystring.cpp.s"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp" -o CMakeFiles/tests.dir/tests/test_mystring.cpp.s
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp" -o CMakeFiles/tests.dir/tests/test_mystring.cpp.s
 
 CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj: T:/c\ github\ pc/Algorithm_And_Data_Structure/tests/test_mytranslatornum.cpp
 CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj: CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj -MF CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj.d -o CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mytranslatornum.cpp"
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj -MF CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj.d -o CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mytranslatornum.cpp"
 
 CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.i"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mytranslatornum.cpp" > CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.i
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mytranslatornum.cpp" > CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.i
 
 CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.s"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mytranslatornum.cpp" -o CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.s
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mytranslatornum.cpp" -o CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.s
 
 CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj: T:/c\ github\ pc/Algorithm_And_Data_Structure/tests/test_mysorts.cpp
 CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj: CMakeFiles/tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj -MF CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj.d -o CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mysorts.cpp"
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj -MF CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj.d -o CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mysorts.cpp"
 
 CMakeFiles/tests.dir/tests/test_mysorts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/test_mysorts.cpp.i"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mysorts.cpp" > CMakeFiles/tests.dir/tests/test_mysorts.cpp.i
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mysorts.cpp" > CMakeFiles/tests.dir/tests/test_mysorts.cpp.i
 
 CMakeFiles/tests.dir/tests/test_mysorts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/test_mysorts.cpp.s"
-	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mysorts.cpp" -o CMakeFiles/tests.dir/tests/test_mysorts.cpp.s
+	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mysorts.cpp" -o CMakeFiles/tests.dir/tests/test_mysorts.cpp.s
 
 # Object files for target tests
 tests_OBJECTS = \
