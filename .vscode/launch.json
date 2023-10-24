@@ -1,0 +1,16 @@
+{
+    "configurations": [
+    {
+        "name": "(Windows) Запустить",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/main.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "console": "externalTerminal"
+    }
+    ]
+   
+}
