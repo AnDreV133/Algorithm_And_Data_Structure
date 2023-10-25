@@ -1,58 +1,55 @@
 [
 {
   "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
-  "command": "C:/Users/dmitr/gcc/bin/c++.exe   -g -o CMakeFiles/mystring.dir/mystring/mystring.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/mystring/mystring.cpp\"",
+  "command": "c:/users/dmitr/gcc/bin/g++.exe   -g -o CMakeFiles/mystring.dir/mystring/mystring.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/mystring/mystring.cpp\"",
   "file": "T:/c github pc/Algorithm_And_Data_Structure/mystring/mystring.cpp",
   "output": "CMakeFiles/mystring.dir/mystring/mystring.cpp.obj"
 },
 {
   "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
-  "command": "C:/Users/dmitr/gcc/bin/c++.exe   -g -o CMakeFiles/mytranslatornum.dir/mytranslatornum/mytranslatornum.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/mytranslatornum/mytranslatornum.cpp\"",
+  "command": "c:/users/dmitr/gcc/bin/g++.exe   -g -o CMakeFiles/mytranslatornum.dir/mytranslatornum/mytranslatornum.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/mytranslatornum/mytranslatornum.cpp\"",
   "file": "T:/c github pc/Algorithm_And_Data_Structure/mytranslatornum/mytranslatornum.cpp",
   "output": "CMakeFiles/mytranslatornum.dir/mytranslatornum/mytranslatornum.cpp.obj"
 },
 {
   "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
-  "command": "C:/Users/dmitr/gcc/bin/c++.exe   -g -o CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/mysorts/mysorts.cpp\"",
+  "command": "c:/users/dmitr/gcc/bin/g++.exe   -g -o CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/mysorts/mysorts.cpp\"",
   "file": "T:/c github pc/Algorithm_And_Data_Structure/mysorts/mysorts.cpp",
   "output": "CMakeFiles/mysorts.dir/mysorts/mysorts.cpp.obj"
 },
 {
   "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
-<<<<<<< HEAD
-=======
-  "command": "C:/Users/dmitr/gcc/bin/c++.exe   -g -o CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp\"",
+  "command": "c:/users/dmitr/gcc/bin/g++.exe   -g -o CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp\"",
   "file": "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp",
   "output": "CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj"
 },
 {
   "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
-  "command": "C:/Users/dmitr/gcc/bin/c++.exe   -g -o CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.cpp\"",
+  "command": "c:/users/dmitr/gcc/bin/g++.exe   -g -o CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.cpp\"",
   "file": "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.cpp",
   "output": "CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj"
 },
 {
   "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
->>>>>>> mylinerlist
-  "command": "C:/Users/dmitr/gcc/bin/c++.exe   -g -o CMakeFiles/tests.dir/tests/test_mystring.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp\"",
+  "command": "c:/users/dmitr/gcc/bin/g++.exe   -g -o CMakeFiles/tests.dir/tests/test_mystring.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp\"",
   "file": "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp",
   "output": "CMakeFiles/tests.dir/tests/test_mystring.cpp.obj"
 },
 {
   "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
-  "command": "C:/Users/dmitr/gcc/bin/c++.exe   -g -o CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/tests/test_mytranslatornum.cpp\"",
+  "command": "c:/users/dmitr/gcc/bin/g++.exe   -g -o CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/tests/test_mytranslatornum.cpp\"",
   "file": "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mytranslatornum.cpp",
   "output": "CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj"
 },
 {
   "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
-  "command": "C:/Users/dmitr/gcc/bin/c++.exe   -g -o CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/tests/test_mysorts.cpp\"",
+  "command": "c:/users/dmitr/gcc/bin/g++.exe   -g -o CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/tests/test_mysorts.cpp\"",
   "file": "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mysorts.cpp",
   "output": "CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj"
 },
 {
   "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
-  "command": "C:/Users/dmitr/gcc/bin/c++.exe   -g -o CMakeFiles/main.dir/main.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/main.cpp\"",
+  "command": "c:/users/dmitr/gcc/bin/g++.exe   -g -o CMakeFiles/main.dir/main.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/main.cpp\"",
   "file": "T:/c github pc/Algorithm_And_Data_Structure/main.cpp",
   "output": "CMakeFiles/main.dir/main.cpp.obj"
 }

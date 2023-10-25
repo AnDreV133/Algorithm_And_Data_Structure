@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-<<<<<<< HEAD
   "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in"
   "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
   "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake"
@@ -101,21 +100,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake"
   "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake"
-=======
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake"
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake"
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake"
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake"
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake"
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake"
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake"
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
-  "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake"
->>>>>>> mylinerlist
   "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Program Files (x86)/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -140,15 +124,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-<<<<<<< HEAD
   "CMakeFiles/3.28.0-rc2/CMakeSystem.cmake"
   "CMakeFiles/3.28.0-rc2/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.0-rc2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.0-rc2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.28.0-rc2/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.0-rc2/CMakeCXXCompiler.cmake"
-=======
->>>>>>> mylinerlist
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -157,10 +138,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/mystring.dir/DependInfo.cmake"
   "CMakeFiles/mytranslatornum.dir/DependInfo.cmake"
   "CMakeFiles/mysorts.dir/DependInfo.cmake"
-<<<<<<< HEAD
-=======
   "CMakeFiles/mylinerlist.dir/DependInfo.cmake"
->>>>>>> mylinerlist
   "CMakeFiles/tests.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
   )

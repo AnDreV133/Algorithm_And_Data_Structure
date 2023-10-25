@@ -156,8 +156,6 @@ mysorts/fast:
 .PHONY : mysorts/fast
 
 #=============================================================================
-<<<<<<< HEAD
-=======
 # Target rules for targets named mylinerlist
 
 # Build rule for target.
@@ -171,7 +169,6 @@ mylinerlist/fast:
 .PHONY : mylinerlist/fast
 
 #=============================================================================
->>>>>>> mylinerlist
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -221,8 +218,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-<<<<<<< HEAD
-=======
 mylinerlist/mylinerlist.obj: mylinerlist/mylinerlist.cpp.obj
 .PHONY : mylinerlist/mylinerlist.obj
 
@@ -271,7 +266,6 @@ mylinerlist/solutionlinearlist.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.s
 .PHONY : mylinerlist/solutionlinearlist.cpp.s
 
->>>>>>> mylinerlist
 mysorts/mysorts.obj: mysorts/mysorts.cpp.obj
 .PHONY : mysorts/mysorts.obj
 
@@ -425,10 +419,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-<<<<<<< HEAD
-=======
 	@echo "... mylinerlist"
->>>>>>> mylinerlist
 	@echo "... mysorts"
 	@echo "... mystring"
 	@echo "... mytranslatornum"
@@ -436,15 +427,12 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
-<<<<<<< HEAD
-=======
 	@echo "... mylinerlist/mylinerlist.obj"
 	@echo "... mylinerlist/mylinerlist.i"
 	@echo "... mylinerlist/mylinerlist.s"
 	@echo "... mylinerlist/solutionlinearlist.obj"
 	@echo "... mylinerlist/solutionlinearlist.i"
 	@echo "... mylinerlist/solutionlinearlist.s"
->>>>>>> mylinerlist
 	@echo "... mysorts/mysorts.obj"
 	@echo "... mysorts/mysorts.i"
 	@echo "... mysorts/mysorts.s"
