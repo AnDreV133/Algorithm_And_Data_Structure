@@ -132,4 +132,5 @@ CMakeFiles/main.dir/main.cpp.obj: \
  C:/Users/dmitr/gcc/include/c++/13.2.0/istream \
  C:/Users/dmitr/gcc/include/c++/13.2.0/bits/istream.tcc \
  T:/c\ github\ pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.h \
- T:/c\ github\ pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.h
+ T:/c\ github\ pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.h \
+ T:/c\ github\ pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.h

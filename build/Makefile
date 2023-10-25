@@ -242,6 +242,30 @@ mylinerlist/mylinerlist.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.s
 .PHONY : mylinerlist/mylinerlist.cpp.s
 
+mylinerlist/solutionlinearlist.obj: mylinerlist/solutionlinearlist.cpp.obj
+.PHONY : mylinerlist/solutionlinearlist.obj
+
+# target to build an object file
+mylinerlist/solutionlinearlist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj
+.PHONY : mylinerlist/solutionlinearlist.cpp.obj
+
+mylinerlist/solutionlinearlist.i: mylinerlist/solutionlinearlist.cpp.i
+.PHONY : mylinerlist/solutionlinearlist.i
+
+# target to preprocess a source file
+mylinerlist/solutionlinearlist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.i
+.PHONY : mylinerlist/solutionlinearlist.cpp.i
+
+mylinerlist/solutionlinearlist.s: mylinerlist/solutionlinearlist.cpp.s
+.PHONY : mylinerlist/solutionlinearlist.s
+
+# target to generate assembly for a file
+mylinerlist/solutionlinearlist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.s
+.PHONY : mylinerlist/solutionlinearlist.cpp.s
+
 mysorts/mysorts.obj: mysorts/mysorts.cpp.obj
 .PHONY : mysorts/mysorts.obj
 
@@ -406,6 +430,9 @@ help:
 	@echo "... mylinerlist/mylinerlist.obj"
 	@echo "... mylinerlist/mylinerlist.i"
 	@echo "... mylinerlist/mylinerlist.s"
+	@echo "... mylinerlist/solutionlinearlist.obj"
+	@echo "... mylinerlist/solutionlinearlist.i"
+	@echo "... mylinerlist/solutionlinearlist.s"
 	@echo "... mysorts/mysorts.obj"
 	@echo "... mysorts/mysorts.i"
 	@echo "... mysorts/mysorts.s"

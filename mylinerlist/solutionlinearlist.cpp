@@ -1,20 +1,18 @@
 #include "solutionlinearlist.h"
 
-#include "mylinerlist.h"
-
-void CreateListFromArray(List *list, int array[], int size)
-{
-    InitList(list);
-
-    PutListFromArray(list, array, size);
-}
-
 void PutListFromArray(List *list, int array[], int size)
 {
     for (int i = 0; i < size; i++)
     {
         PutList(list, array[i]);
     }
+}
+
+void CreateListFromArray(List *list, int array[], int size)
+{
+    InitList(list);
+
+    PutListFromArray(list, array, size);
 }
 
 int isPolynomialsEqual(List *list1, List *list2)
@@ -38,6 +36,30 @@ int isPolynomialsEqual(List *list1, List *list2)
         return 0;
 
     return 1;
+}
+
+void outputPolinomial(List *list)
+{
+    BeginPtr(list);
+    int exponent = list->n;
+    while (!EndList(list))
+    {
+        int constVal;
+        ReadList(list, &constVal);
+        MovePtr(list);
+
+        exponent--;
+
+        if (constVal == 0)
+            continue;
+
+        if (exponent > 1)
+            printf("%dx^%d%c", constVal, exponent, constVal > 0 ? '+' : '-');
+        else if (exponent > 0)
+            printf("%dx%c", constVal, constVal > 0 ? '+' : '-');
+        else
+            printf("%d", constVal);
+    }
 }
 
 // long long getSolvingFormedPolynomialByArray(int constants[], int values[], int size)

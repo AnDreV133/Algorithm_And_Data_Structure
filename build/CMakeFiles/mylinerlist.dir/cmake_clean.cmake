@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj"
   "CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj.d"
+  "CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj"
+  "CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj.d"
   "libmylinerlist.a"
   "libmylinerlist.pdb"
 )

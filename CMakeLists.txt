@@ -25,6 +25,8 @@ add_library(
         mylinerlist
         mylinerlist/mylinerlist.cpp
         mylinerlist/mylinerlist.h
+        mylinerlist/solutionlinearlist.cpp
+        mylinerlist/solutionlinearlist.h
 )
 
 add_library(
