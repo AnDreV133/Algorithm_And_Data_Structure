@@ -22,6 +22,14 @@ add_library(
 )
 
 add_library(
+        mylinerlist
+        mylinerlist/mylinerlist.cpp
+        mylinerlist/mylinerlist.h
+        mylinerlist/solutionlinearlist.cpp
+        mylinerlist/solutionlinearlist.h
+)
+
+add_library(
         tests
         tests/test_mystring.cpp
         tests/test_mystring.h
@@ -39,6 +47,7 @@ add_executable(
 target_link_libraries(
         main
         tests
+        mylinerlist
         mystring
         mytranslatornum
 )

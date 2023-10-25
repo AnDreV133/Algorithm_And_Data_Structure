@@ -156,6 +156,22 @@ mysorts/fast:
 .PHONY : mysorts/fast
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for targets named mylinerlist
+
+# Build rule for target.
+mylinerlist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mylinerlist
+.PHONY : mylinerlist
+
+# fast build rule for target.
+mylinerlist/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/build
+.PHONY : mylinerlist/fast
+
+#=============================================================================
+>>>>>>> mylinerlist
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -205,6 +221,57 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+<<<<<<< HEAD
+=======
+mylinerlist/mylinerlist.obj: mylinerlist/mylinerlist.cpp.obj
+.PHONY : mylinerlist/mylinerlist.obj
+
+# target to build an object file
+mylinerlist/mylinerlist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj
+.PHONY : mylinerlist/mylinerlist.cpp.obj
+
+mylinerlist/mylinerlist.i: mylinerlist/mylinerlist.cpp.i
+.PHONY : mylinerlist/mylinerlist.i
+
+# target to preprocess a source file
+mylinerlist/mylinerlist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.i
+.PHONY : mylinerlist/mylinerlist.cpp.i
+
+mylinerlist/mylinerlist.s: mylinerlist/mylinerlist.cpp.s
+.PHONY : mylinerlist/mylinerlist.s
+
+# target to generate assembly for a file
+mylinerlist/mylinerlist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.s
+.PHONY : mylinerlist/mylinerlist.cpp.s
+
+mylinerlist/solutionlinearlist.obj: mylinerlist/solutionlinearlist.cpp.obj
+.PHONY : mylinerlist/solutionlinearlist.obj
+
+# target to build an object file
+mylinerlist/solutionlinearlist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj
+.PHONY : mylinerlist/solutionlinearlist.cpp.obj
+
+mylinerlist/solutionlinearlist.i: mylinerlist/solutionlinearlist.cpp.i
+.PHONY : mylinerlist/solutionlinearlist.i
+
+# target to preprocess a source file
+mylinerlist/solutionlinearlist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.i
+.PHONY : mylinerlist/solutionlinearlist.cpp.i
+
+mylinerlist/solutionlinearlist.s: mylinerlist/solutionlinearlist.cpp.s
+.PHONY : mylinerlist/solutionlinearlist.s
+
+# target to generate assembly for a file
+mylinerlist/solutionlinearlist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.s
+.PHONY : mylinerlist/solutionlinearlist.cpp.s
+
+>>>>>>> mylinerlist
 mysorts/mysorts.obj: mysorts/mysorts.cpp.obj
 .PHONY : mysorts/mysorts.obj
 
@@ -358,6 +425,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+<<<<<<< HEAD
+=======
+	@echo "... mylinerlist"
+>>>>>>> mylinerlist
 	@echo "... mysorts"
 	@echo "... mystring"
 	@echo "... mytranslatornum"
@@ -365,6 +436,15 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+<<<<<<< HEAD
+=======
+	@echo "... mylinerlist/mylinerlist.obj"
+	@echo "... mylinerlist/mylinerlist.i"
+	@echo "... mylinerlist/mylinerlist.s"
+	@echo "... mylinerlist/solutionlinearlist.obj"
+	@echo "... mylinerlist/solutionlinearlist.i"
+	@echo "... mylinerlist/solutionlinearlist.s"
+>>>>>>> mylinerlist
 	@echo "... mysorts/mysorts.obj"
 	@echo "... mysorts/mysorts.i"
 	@echo "... mysorts/mysorts.s"

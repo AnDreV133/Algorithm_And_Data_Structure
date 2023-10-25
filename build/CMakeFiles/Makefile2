@@ -66,6 +66,10 @@ CMAKE_BINARY_DIR = "T:/c github pc/Algorithm_And_Data_Structure/build"
 all: CMakeFiles/mystring.dir/all
 all: CMakeFiles/mytranslatornum.dir/all
 all: CMakeFiles/mysorts.dir/all
+<<<<<<< HEAD
+=======
+all: CMakeFiles/mylinerlist.dir/all
+>>>>>>> mylinerlist
 all: CMakeFiles/tests.dir/all
 all: CMakeFiles/main.dir/all
 .PHONY : all
@@ -78,6 +82,10 @@ preinstall:
 clean: CMakeFiles/mystring.dir/clean
 clean: CMakeFiles/mytranslatornum.dir/clean
 clean: CMakeFiles/mysorts.dir/clean
+<<<<<<< HEAD
+=======
+clean: CMakeFiles/mylinerlist.dir/clean
+>>>>>>> mylinerlist
 clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/main.dir/clean
 .PHONY : clean
@@ -89,7 +97,11 @@ clean: CMakeFiles/main.dir/clean
 CMakeFiles/mystring.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystring.dir/build.make CMakeFiles/mystring.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mystring.dir/build.make CMakeFiles/mystring.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=5,6 "Built target mystring"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=8,9 "Built target mystring"
+>>>>>>> mylinerlist
 .PHONY : CMakeFiles/mystring.dir/all
 
 # Build rule for subdir invocation for target.
@@ -115,7 +127,11 @@ CMakeFiles/mystring.dir/clean:
 CMakeFiles/mytranslatornum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mytranslatornum.dir/build.make CMakeFiles/mytranslatornum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mytranslatornum.dir/build.make CMakeFiles/mytranslatornum.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=7,8 "Built target mytranslatornum"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=10,11 "Built target mytranslatornum"
+>>>>>>> mylinerlist
 .PHONY : CMakeFiles/mytranslatornum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -141,7 +157,11 @@ CMakeFiles/mytranslatornum.dir/clean:
 CMakeFiles/mysorts.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysorts.dir/build.make CMakeFiles/mysorts.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mysorts.dir/build.make CMakeFiles/mysorts.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=3,4 "Built target mysorts"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=6,7 "Built target mysorts"
+>>>>>>> mylinerlist
 .PHONY : CMakeFiles/mysorts.dir/all
 
 # Build rule for subdir invocation for target.
@@ -161,13 +181,46 @@ CMakeFiles/mysorts.dir/clean:
 .PHONY : CMakeFiles/mysorts.dir/clean
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for target CMakeFiles/mylinerlist.dir
+
+# All Build rule for target.
+CMakeFiles/mylinerlist.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=3,4,5 "Built target mylinerlist"
+.PHONY : CMakeFiles/mylinerlist.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mylinerlist.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mylinerlist.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" 0
+.PHONY : CMakeFiles/mylinerlist.dir/rule
+
+# Convenience name for target.
+mylinerlist: CMakeFiles/mylinerlist.dir/rule
+.PHONY : mylinerlist
+
+# clean rule for target.
+CMakeFiles/mylinerlist.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylinerlist.dir/build.make CMakeFiles/mylinerlist.dir/clean
+.PHONY : CMakeFiles/mylinerlist.dir/clean
+
+#=============================================================================
+>>>>>>> mylinerlist
 # Target rules for target CMakeFiles/tests.dir
 
 # All Build rule for target.
 CMakeFiles/tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=9,10,11,12 "Built target tests"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=12,13,14,15 "Built target tests"
+>>>>>>> mylinerlist
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -192,6 +245,10 @@ CMakeFiles/tests.dir/clean:
 # All Build rule for target.
 CMakeFiles/main.dir/all: CMakeFiles/mystring.dir/all
 CMakeFiles/main.dir/all: CMakeFiles/mytranslatornum.dir/all
+<<<<<<< HEAD
+=======
+CMakeFiles/main.dir/all: CMakeFiles/mylinerlist.dir/all
+>>>>>>> mylinerlist
 CMakeFiles/main.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
@@ -200,7 +257,11 @@ CMakeFiles/main.dir/all: CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start "T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" 10
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start "T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" 13
+>>>>>>> mylinerlist
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" 0
 .PHONY : CMakeFiles/main.dir/rule

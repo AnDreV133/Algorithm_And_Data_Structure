@@ -24,7 +24,7 @@ typedef struct Element {
 typedef struct List {
     ptrel start; // указатель на начало
     ptrel ptr; // рабочий указатель
-    long long n; // длинна списка
+    unsigned n; // длинна списка
 } List;
 
 
@@ -37,8 +37,6 @@ void GetList(List *L, BaseType *E);
 
 void ReadList(List *L, BaseType *E);
 
-int FullList(List *L);
-
 int EndList(List *L);
 
 unsigned int Count(List *l);
@@ -49,7 +47,7 @@ void EndPtr(List *L);
 
 void MovePtr(List *L);
 
-void MoveTo(List *L, unsigned int n);
+void MoveTo(List *L, unsigned n);
 
 void DoneList(List *L);
 

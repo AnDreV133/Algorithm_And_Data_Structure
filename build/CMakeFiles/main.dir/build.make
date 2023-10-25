@@ -93,6 +93,10 @@ main_EXTERNAL_OBJECTS =
 main.exe: CMakeFiles/main.dir/main.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: libtests.a
+<<<<<<< HEAD
+=======
+main.exe: libmylinerlist.a
+>>>>>>> mylinerlist
 main.exe: libmystring.a
 main.exe: libmytranslatornum.a
 main.exe: CMakeFiles/main.dir/linkLibs.rsp

@@ -1,31 +1,23 @@
 #include <iostream>
 #include "mylinerlist/mylinerlist.h"
+#include "mylinerlist/solutionlinearlist.h"
 
-int main() {
-    List l;
-    InitList(&l);
-    PutList(&l, 5);
-    PutList(&l, 3);
-    PutList(&l, 10);
+int main()
+{
+    int constants1[] = {3, 2, 2};
+    List list1;
+    CreateListFromArray(&list1, constants1, 3);
+    outputPolinomial(&list1);
+    printf(" - 1\n");
 
-    // DoneList(&l);
+    int constants2[] = {3, 2, 2};
+    List list2;
+    CreateListFromArray(&list2, constants2, 3);
+    outputPolinomial(&list2);
+    printf(" - 2\n");
 
-//    InitList(&l);
-    PutList(&l,5);
-    PutList(&l, 3);
-    PutList(&l, 10);
-
-    for (int i = 0; i < 6; ++i) {
-        int temp;
-        GetList(&l, &temp);
-        std::cout << temp << ' ';
-    }
-
-//    Element* pStart = l.start;
-//    for (int i = 0; i < 3; ++i) {
-//        std::cout << pStart->data << ' ' <<  pStart->next << ' ';
-//        pStart = pStart->next;
-//    }
+    printf("result: ");
+    printf(isPolynomialsEqual(&list1, &list2)? "true" : "false");
 
     return 0;
 }

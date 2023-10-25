@@ -19,6 +19,21 @@
 },
 {
   "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
+<<<<<<< HEAD
+=======
+  "command": "C:/Users/dmitr/gcc/bin/c++.exe   -g -o CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp\"",
+  "file": "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp",
+  "output": "CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj"
+},
+{
+  "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
+  "command": "C:/Users/dmitr/gcc/bin/c++.exe   -g -o CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.cpp\"",
+  "file": "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.cpp",
+  "output": "CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj"
+},
+{
+  "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
+>>>>>>> mylinerlist
   "command": "C:/Users/dmitr/gcc/bin/c++.exe   -g -o CMakeFiles/tests.dir/tests/test_mystring.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp\"",
   "file": "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp",
   "output": "CMakeFiles/tests.dir/tests/test_mystring.cpp.obj"

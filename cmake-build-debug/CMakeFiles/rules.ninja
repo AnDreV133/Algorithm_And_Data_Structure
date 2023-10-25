@@ -71,6 +71,25 @@ rule CXX_STATIC_LIBRARY_LINKER__mysorts_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__mylinerlist_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "T:\clion\CLion 2022.2.3\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX static library.
+
+rule CXX_STATIC_LIBRARY_LINKER__mylinerlist_Debug
+  command = cmd.exe /C "$PRE_LINK && "T:\clion\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f $TARGET_FILE && "T:\clion\CLion 2022.2.3\bin\mingw\bin\ar.exe" qc $TARGET_FILE $LINK_FLAGS $in && "T:\clion\CLion 2022.2.3\bin\mingw\bin\ranlib.exe" $TARGET_FILE && $POST_BUILD"
+  description = Linking CXX static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__tests_Debug
   depfile = $DEP_FILE
   deps = gcc

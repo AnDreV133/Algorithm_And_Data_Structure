@@ -133,7 +133,12 @@ CMakeFiles/main.dir/main.cpp.obj: T:/c\ github\ pc/Algorithm_And_Data_Structure/
   C:/Users/dmitr/gcc/x86_64-w64-mingw32/include/vadefs.h \
   C:/Users/dmitr/gcc/x86_64-w64-mingw32/include/wchar.h \
   C:/Users/dmitr/gcc/x86_64-w64-mingw32/include/wctype.h \
+<<<<<<< HEAD
   T:/c\ github\ pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.h
+=======
+  T:/c\ github\ pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.h \
+  T:/c\ github\ pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.h
+>>>>>>> mylinerlist
 
 
 T:/c\ github\ pc/Algorithm_And_Data_Structure/main.cpp:
@@ -401,3 +406,8 @@ C:/Users/dmitr/gcc/x86_64-w64-mingw32/include/wchar.h:
 C:/Users/dmitr/gcc/x86_64-w64-mingw32/include/wctype.h:
 
 T:/c\ github\ pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.h:
+<<<<<<< HEAD
+=======
+
+T:/c\ github\ pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.h:
+>>>>>>> mylinerlist

@@ -134,6 +134,37 @@ build libmysorts.a: CXX_STATIC_LIBRARY_LINKER__mysorts_Debug CMakeFiles/mysorts.
   TARGET_PDB = mysorts.a.dbg
 
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target mylinerlist
+
+
+#############################################
+# Order-only phony target for mylinerlist
+
+build cmake_object_order_depends_target_mylinerlist: phony || CMakeFiles/mylinerlist.dir
+
+build CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj: CXX_COMPILER__mylinerlist_Debug T$:/c$ github$ pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp || cmake_object_order_depends_target_mylinerlist
+  DEP_FILE = CMakeFiles\mylinerlist.dir\mylinerlist\mylinerlist.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\mylinerlist.dir
+  OBJECT_FILE_DIR = CMakeFiles\mylinerlist.dir\mylinerlist
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target mylinerlist
+
+
+#############################################
+# Link the static library libmylinerlist.a
+
+build libmylinerlist.a: CXX_STATIC_LIBRARY_LINKER__mylinerlist_Debug CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\mylinerlist.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libmylinerlist.a
+  TARGET_PDB = mylinerlist.a.dbg
+
+# =============================================================================
 # Object build statements for STATIC_LIBRARY target tests
 
 
@@ -183,7 +214,7 @@ build libtests.a: CXX_STATIC_LIBRARY_LINKER__tests_Debug CMakeFiles/tests.dir/te
 #############################################
 # Order-only phony target for main
 
-build cmake_object_order_depends_target_main: phony || cmake_object_order_depends_target_mystring cmake_object_order_depends_target_mytranslatornum cmake_object_order_depends_target_tests
+build cmake_object_order_depends_target_main: phony || cmake_object_order_depends_target_mylinerlist cmake_object_order_depends_target_mystring cmake_object_order_depends_target_mytranslatornum cmake_object_order_depends_target_tests
 
 build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_Debug T$:/c$ github$ pc/Algorithm_And_Data_Structure/main.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles\main.dir\main.cpp.obj.d
@@ -199,9 +230,9 @@ build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_Debug T$:/c$ github$ 
 #############################################
 # Link the executable main.exe
 
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj | libtests.a libmystring.a libmytranslatornum.a || libmystring.a libmytranslatornum.a libtests.a
+build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj | libtests.a libmylinerlist.a libmystring.a libmytranslatornum.a || libmylinerlist.a libmystring.a libmytranslatornum.a libtests.a
   FLAGS = -g
-  LINK_LIBRARIES = libtests.a  libmystring.a  libmytranslatornum.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = libtests.a  libmylinerlist.a  libmystring.a  libmytranslatornum.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -237,6 +268,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build main: phony main.exe
 
+build mylinerlist: phony libmylinerlist.a
+
 build mysorts: phony libmysorts.a
 
 build mystring: phony libmystring.a
@@ -253,7 +286,7 @@ build tests: phony libtests.a
 #############################################
 # Folder: T:/c github pc/Algorithm_And_Data_Structure/cmake-build-debug
 
-build all: phony libmystring.a libmytranslatornum.a libmysorts.a libtests.a main.exe
+build all: phony libmystring.a libmytranslatornum.a libmysorts.a libmylinerlist.a libtests.a main.exe
 
 # =============================================================================
 # Built-in targets
