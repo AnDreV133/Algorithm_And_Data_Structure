@@ -8,94 +8,108 @@
 
 int ListError;
 
-void InitList(List *L) {
-    ptrel zeroElem = (ptrel) malloc(sizeof(Element));
-    if (zeroElem != NULL) {
+void InitList(List *L)
+{
+    ptrel zeroElem = (ptrel)malloc(sizeof(Element));
+    if (zeroElem != NULL)
+    {
         zeroElem->next = NULL;
         zeroElem->data = NULL;
         L->n = 0;
         L->start = zeroElem;
         L->ptr = zeroElem;
         ListError = ListOk;
-    } else
+    }
+    else
         ListError = ListNotMem;
 }
 
-void PutList(List *L, BaseType E) {
-    ptrel newElem = (ptrel) malloc(sizeof(Element));
-    if (newElem == NULL) {
+void PutList(List *L, BaseType E)
+{
+    ptrel buf = (ptrel)malloc(sizeof(Element));
+    if (buf != NULL)
+    {
+        buf->data = E;
+        buf->next =
+            L->ptr->next;
+        L->ptr->next = buf;
+        ListError = ListOk;
+        L->n++;
+    }
+    else
+    {
         ListError = ListNotMem;
-        return;
     }
-
-    if (EndList(L)) {
-        newElem->next = L->ptr;
-
-        L->start = newElem;
-        L->ptr = newElem;
-    } else {
-        newElem->next = L->ptr->next;
-
-        L->ptr->next = newElem;
-    }
-
-    newElem->data = E;
-    L->n++;
 }
 
-void GetList(List *L, BaseType *E) {
+void GetList(List *L, BaseType *E)
+{
     ptrel pntr = NULL;
-    if (!EndList(L)) {
+    if (!EndList(L))
+    {
         pntr = L->ptr->next;
         L->ptr->next = pntr->next;
         *E = pntr->data;
         L->n--;
-    } else
+    }
+    else
         ListError = ListEnd;
 
     free(pntr);
 }
 
-void ReadList(List *L, BaseType *E) {
-    if (EndList(L)) {
+void ReadList(List *L, BaseType *E)
+{
+    if (EndList(L))
+    {
         ListError = ListEnd;
-    } else
+    }
+    else
         *E = L->ptr->next->data;
 }
 
-int EndList(List *L) {
-    if (!L->ptr->next) {
+int EndList(List *L)
+{
+    if (!L->ptr->next)
+    {
         ListError = ListEnd;
         return 1;
-    } else
+    }
+    else
         return 0;
 }
 
-unsigned int Count(List *L) {
+unsigned int Count(List *L)
+{
     return L->n;
 }
 
-void BeginPtr(List *L) {
+void BeginPtr(List *L)
+{
     L->ptr = L->start;
 }
 
-void EndPtr(List *L) {
+void EndPtr(List *L)
+{
     while (!EndList(L))
         L->ptr = L->ptr->next;
 }
 
-void MovePtr(List *L) {
+void MovePtr(List *L)
+{
     if (!EndList(L))
         L->ptr = L->ptr->next;
     else
         ListError = ListEnd;
 }
 
-void MoveTo(List *L, unsigned n) {
+void MoveTo(List *L, unsigned n)
+{
     BeginPtr(L);
 
     int i = 0;
-    while (i < n && !EndList(L)) {
+    while (i < n && !EndList(L))
+    {
         L->ptr = L->ptr->next;
         i++;
     }
@@ -104,9 +118,11 @@ void MoveTo(List *L, unsigned n) {
         ListError = ListEnd;
 }
 
-void DoneList(List *L) {
+void DoneList(List *L)
+{
     BeginPtr(L);
-    while (L->n != 0) {
+    while (L->n != 0)
+    {
         BaseType E;
         GetList(L, &E);
         L->n--;
@@ -116,15 +132,17 @@ void DoneList(List *L) {
     L->ptr = NULL;
 }
 
-void CopyList(List *L1, List *L2) {
+void CopyList(List *L1, List *L2)
+{
     BaseType E;
     L2->n = L1->n;
     BeginPtr(L1);
     BeginPtr(L2);
-    while (!EndList(L1)) {
+    while (!EndList(L1))
+    {
         ReadList(L1, &E);
         PutList(L2, E);
         MovePtr(L1);
         MovePtr(L2);
     }
-} 
+}
