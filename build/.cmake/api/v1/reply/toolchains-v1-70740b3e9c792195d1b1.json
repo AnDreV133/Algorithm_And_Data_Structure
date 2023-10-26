@@ -40,7 +40,7 @@
 						"kernel32"
 					]
 				},
-				"path" : "C:/Users/dmitr/gcc/bin/gcc.exe",
+				"path" : "c:/users/dmitr/gcc/bin/gcc.exe",
 				"version" : "13.2.0"
 			},
 			"language" : "C",
@@ -92,7 +92,7 @@
 						"kernel32"
 					]
 				},
-				"path" : "C:/Users/dmitr/gcc/bin/c++.exe",
+				"path" : "c:/users/dmitr/gcc/bin/g++.exe",
 				"version" : "13.2.0"
 			},
 			"language" : "CXX",

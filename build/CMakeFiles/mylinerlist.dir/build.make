@@ -73,29 +73,29 @@ CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj: CMakeFiles/mylinerli
 CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj: T:/c\ github\ pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp
 CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj: CMakeFiles/mylinerlist.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj"
-	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj -MF CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj.d -o CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp"
+	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj -MF CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj.d -o CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp"
 
 CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.i"
-	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp" > CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.i
+	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp" > CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.i
 
 CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.s"
-	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp" -o CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.s
+	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/mylinerlist.cpp" -o CMakeFiles/mylinerlist.dir/mylinerlist/mylinerlist.cpp.s
 
 CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj: CMakeFiles/mylinerlist.dir/flags.make
 CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj: T:/c\ github\ pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.cpp
 CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj: CMakeFiles/mylinerlist.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj"
-	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj -MF CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj.d -o CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.cpp"
+	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj -MF CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj.d -o CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.obj -c "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.cpp"
 
 CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.i"
-	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.cpp" > CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.i
+	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.cpp" > CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.i
 
 CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.s"
-	C:/Users/dmitr/gcc/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.cpp" -o CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.s
+	c:/users/dmitr/gcc/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "T:/c github pc/Algorithm_And_Data_Structure/mylinerlist/solutionlinearlist.cpp" -o CMakeFiles/mylinerlist.dir/mylinerlist/solutionlinearlist.cpp.s
 
 # Object files for target mylinerlist
 mylinerlist_OBJECTS = \

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mylinerlist.cpp" "CMakeFiles/tests.dir/tests/test_mylinerlist.cpp.obj" "gcc" "CMakeFiles/tests.dir/tests/test_mylinerlist.cpp.obj.d"
   "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mysorts.cpp" "CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj" "gcc" "CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj.d"
   "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mystring.cpp" "CMakeFiles/tests.dir/tests/test_mystring.cpp.obj" "gcc" "CMakeFiles/tests.dir/tests/test_mystring.cpp.obj.d"
   "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mytranslatornum.cpp" "CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj" "gcc" "CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj.d"

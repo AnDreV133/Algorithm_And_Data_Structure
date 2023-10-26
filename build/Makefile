@@ -338,6 +338,30 @@ mytranslatornum/mytranslatornum.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mytranslatornum.dir/build.make CMakeFiles/mytranslatornum.dir/mytranslatornum/mytranslatornum.cpp.s
 .PHONY : mytranslatornum/mytranslatornum.cpp.s
 
+tests/test_mylinerlist.obj: tests/test_mylinerlist.cpp.obj
+.PHONY : tests/test_mylinerlist.obj
+
+# target to build an object file
+tests/test_mylinerlist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/test_mylinerlist.cpp.obj
+.PHONY : tests/test_mylinerlist.cpp.obj
+
+tests/test_mylinerlist.i: tests/test_mylinerlist.cpp.i
+.PHONY : tests/test_mylinerlist.i
+
+# target to preprocess a source file
+tests/test_mylinerlist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/test_mylinerlist.cpp.i
+.PHONY : tests/test_mylinerlist.cpp.i
+
+tests/test_mylinerlist.s: tests/test_mylinerlist.cpp.s
+.PHONY : tests/test_mylinerlist.s
+
+# target to generate assembly for a file
+tests/test_mylinerlist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/test_mylinerlist.cpp.s
+.PHONY : tests/test_mylinerlist.cpp.s
+
 tests/test_mysorts.obj: tests/test_mysorts.cpp.obj
 .PHONY : tests/test_mysorts.obj
 
@@ -442,6 +466,9 @@ help:
 	@echo "... mytranslatornum/mytranslatornum.obj"
 	@echo "... mytranslatornum/mytranslatornum.i"
 	@echo "... mytranslatornum/mytranslatornum.s"
+	@echo "... tests/test_mylinerlist.obj"
+	@echo "... tests/test_mylinerlist.i"
+	@echo "... tests/test_mylinerlist.s"
 	@echo "... tests/test_mysorts.obj"
 	@echo "... tests/test_mysorts.i"
 	@echo "... tests/test_mysorts.s"

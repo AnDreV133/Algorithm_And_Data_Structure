@@ -37,6 +37,8 @@ add_library(
         tests/test_mytranslatornum.h
         tests/test_mysorts.cpp
         tests/test_mysorts.h
+        tests/test_mylinerlist.cpp
+        tests/test_mylinerlist.h
 )
 
 add_executable(

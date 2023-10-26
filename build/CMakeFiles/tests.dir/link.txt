@@ -1,2 +1,2 @@
-C:/Users/dmitr/gcc/bin/ar.exe qc libtests.a CMakeFiles/tests.dir/tests/test_mystring.cpp.obj CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj
+C:/Users/dmitr/gcc/bin/ar.exe qc libtests.a CMakeFiles/tests.dir/tests/test_mystring.cpp.obj CMakeFiles/tests.dir/tests/test_mytranslatornum.cpp.obj CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj CMakeFiles/tests.dir/tests/test_mylinerlist.cpp.obj
 C:/Users/dmitr/gcc/bin/ranlib.exe libtests.a
