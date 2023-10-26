@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tests.dir/tests/test_mylinerlist.cpp.obj"
+  "CMakeFiles/tests.dir/tests/test_mylinerlist.cpp.obj.d"
   "CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj"
   "CMakeFiles/tests.dir/tests/test_mysorts.cpp.obj.d"
   "CMakeFiles/tests.dir/tests/test_mystring.cpp.obj"

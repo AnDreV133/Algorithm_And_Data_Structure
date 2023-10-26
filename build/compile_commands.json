@@ -49,6 +49,12 @@
 },
 {
   "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
+  "command": "c:/users/dmitr/gcc/bin/g++.exe   -g -o CMakeFiles/tests.dir/tests/test_mylinerlist.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/tests/test_mylinerlist.cpp\"",
+  "file": "T:/c github pc/Algorithm_And_Data_Structure/tests/test_mylinerlist.cpp",
+  "output": "CMakeFiles/tests.dir/tests/test_mylinerlist.cpp.obj"
+},
+{
+  "directory": "T:/c github pc/Algorithm_And_Data_Structure/build",
   "command": "c:/users/dmitr/gcc/bin/g++.exe   -g -o CMakeFiles/main.dir/main.cpp.obj -c \"T:/c github pc/Algorithm_And_Data_Structure/main.cpp\"",
   "file": "T:/c github pc/Algorithm_And_Data_Structure/main.cpp",
   "output": "CMakeFiles/main.dir/main.cpp.obj"

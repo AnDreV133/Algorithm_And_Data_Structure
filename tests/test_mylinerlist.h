@@ -1,0 +1,6 @@
+#ifndef ALGORITHM_AND_DATA_STRUCTURE_TEST_MYLINERLIST_H
+#define ALGORITHM_AND_DATA_STRUCTURE_TEST_MYLINERLIST_H
+
+void test_outputPolinominal();
+
+#endif 
