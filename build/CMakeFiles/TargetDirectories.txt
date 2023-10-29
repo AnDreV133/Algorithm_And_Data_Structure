@@ -1,8 +1,0 @@
-T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles/mystring.dir
-T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles/mytranslatornum.dir
-T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles/mysorts.dir
-T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles/mylinerlist.dir
-T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles/tests.dir
-T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles/main.dir
-T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles/edit_cache.dir
-T:/c github pc/Algorithm_And_Data_Structure/build/CMakeFiles/rebuild_cache.dir
