@@ -12,10 +12,8 @@ int StackError;
 enum ExceptionalSituations
 {
     StackOk,
-    StackNotMem,
-    StackEnd,
     StackOver,
-    StackUnder
+    StackEmpty
 };
 
 typedef int BaseType; // Определить тип элемента стека

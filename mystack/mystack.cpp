@@ -41,7 +41,7 @@ int isEmptyStackArray(Stack *S)
 {
     if (S->uk == 0)
     {
-        StackError = StackUnder;
+        StackError = StackEmpty;
         return 1;
     }
     return 0;
@@ -51,7 +51,7 @@ void ReadStack(Stack *s, BaseType *E)
 {
     if (isEmptyStackArray(s))
     {
-        StackError = StackUnder;
+        StackError = StackEmpty;
         return;
     }
     BaseType t = s->buf[s->uk - 1];
