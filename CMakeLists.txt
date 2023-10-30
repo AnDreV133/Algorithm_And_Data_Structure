@@ -22,6 +22,20 @@ add_library(
 )
 
 add_library(
+        myqueue
+        myqueue/solution.cpp
+        myqueue/solution.h
+        myqueue/myqueue.cpp
+        myqueue/myqueue.h
+)
+
+add_library(
+        mystack
+        mystack/mystack.cpp
+        mystack/mystack.h
+)
+
+add_library(
         mylinerlist
         mylinerlist/mylinerlist.cpp
         mylinerlist/mylinerlist.h
@@ -52,4 +66,6 @@ target_link_libraries(
         mylinerlist
         mystring
         mytranslatornum
+        myqueue
+        mystack
 )

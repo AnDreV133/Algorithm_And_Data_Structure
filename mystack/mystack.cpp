@@ -4,7 +4,9 @@
 
 #include "mystack.h"
 
-void initStackArray(Stack *S)
+ int StackError;
+
+void InitStack(Stack *S)
 {
     S->uk = 0;
     StackError = StackOk;
@@ -12,7 +14,7 @@ void initStackArray(Stack *S)
 
 void PutStack(Stack *S, BaseType E)
 {
-    if (isFullStackArray(S))
+    if (FullStack(S))
         return;
 
     S->buf[S->uk] = E;
@@ -21,13 +23,13 @@ void PutStack(Stack *S, BaseType E)
 
 void GetStack(Stack *S, BaseType *E)
 {
-    if (isEmptyStackArray(S))
+    if (EmptyStack(S))
         return;
     *E = S->buf[S->uk - 1];
     S->uk--;
 }
 
-int isFullStackArray(Stack *S)
+int FullStack(Stack *S)
 {
     if (S->uk >= STACK_SIZE)
     {
@@ -37,7 +39,7 @@ int isFullStackArray(Stack *S)
     return 0;
 }
 
-int isEmptyStackArray(Stack *S)
+int EmptyStack(Stack *S)
 {
     if (S->uk == 0)
     {
@@ -49,7 +51,7 @@ int isEmptyStackArray(Stack *S)
 
 void ReadStack(Stack *s, BaseType *E)
 {
-    if (isEmptyStackArray(s))
+    if (EmptyStack(s))
     {
         StackError = StackEmpty;
         return;

@@ -1,3 +1,8 @@
+#include "myqueue/solution.h"
 
 int main()
-{return 0;}
+{
+    startModelOfProcessingSistem(7);
+
+    return 0;
+}

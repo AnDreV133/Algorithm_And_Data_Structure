@@ -4,47 +4,49 @@
 
 #include "myqueue.h"
 
-void InitQueueArray(Queue *Q)
+int QueueError;
+
+void InitQueue(Queue *Q)
 {
     Q->ukBegin = 0;
     Q->ukEnd = 0;
     Q->len = 0;
-    ErrorQueue = QueueOk;
+    QueueError = QueueOk;
 }
 
-void PutQueueArray(Queue *Q, BaseType E)
+void PutQueue(Queue *Q, BaseType E)
 {
-    if (FullQueueArray(Q))
+    if (FullQueue(Q))
         return;
     Q->buf[Q->ukEnd] = E;
     Q->ukEnd = (Q->ukEnd + 1) % QUEUE_SIZE;
     Q->len++;
 }
 
-void GetQueueArray(Queue *Q, BaseType *E)
+void GetQueue(Queue *Q, BaseType *E)
 {
-    if (EmptyQueueArray(Q))
+    if (EmptyQueue(Q))
         return;
     *E = Q->buf[Q->ukBegin];
     Q->ukBegin = (Q->ukBegin + 1) % QUEUE_SIZE;
     Q->len--;
 }
 
-int FullQueueArray(Queue *Q)
+int FullQueue(Queue *Q)
 {
     if (Q->len == QUEUE_SIZE)
     {
-        ErrorQueue = QueueOver;
+        QueueError = QueueOver;
         return 1;
     }
     return 0;
 }
 
-int EmptyQueueArray(Queue *Q) 
+int EmptyQueue(Queue *Q) 
 {
     if (Q->len == 0)
     {
-        ErrorQueue = QueueEmpty;
+        QueueError = QueueEmpty;
         return 1;
     }
     return 0;
@@ -54,7 +56,7 @@ void ReadQueue(Queue *Q, BaseType *E)
 {
     if (Q->len == 0)
     {
-        ErrorQueue = QueueEmpty;
+        QueueError = QueueEmpty;
         return;
     }
     *E = Q->buf[Q->ukBegin];

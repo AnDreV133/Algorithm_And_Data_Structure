@@ -62,7 +62,7 @@ void InputStr(String *st) {
     }
     char buffer[256];
     printf("Enter a string: ");
-    scanf_s("%255s", buffer);
+    scanf("%s", buffer);
     WriteToStr(st, buffer);
 }
 void OutputStr(String *st) {
