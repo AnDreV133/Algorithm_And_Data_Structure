@@ -3,6 +3,7 @@
 //
 
 #include "myqueue.h"
+#include "solution.h"
 
 int QueueError;
 
@@ -18,7 +19,7 @@ void PutQueue(Queue *Q, BaseType E)
 {
     if (FullQueue(Q))
         return;
-    Q->buf[Q->ukEnd] = E;
+    setExpression(Q->buf + Q->ukEnd, E);
     Q->ukEnd = (Q->ukEnd + 1) % QUEUE_SIZE;
     Q->len++;
 }
@@ -42,7 +43,7 @@ int FullQueue(Queue *Q)
     return 0;
 }
 
-int EmptyQueue(Queue *Q) 
+int EmptyQueue(Queue *Q)
 {
     if (Q->len == 0)
     {
