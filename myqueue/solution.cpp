@@ -8,12 +8,13 @@
 #include "myqueue.h"
 #include "../mystack/mystack.h"
 #include <cstdio>
+#include <iostream>
 
 short processing = 0; // 0 - нет обрабатываемых задач, 1 - есть
 
 void setExpression(Inquiry *source, Inquiry E)
 {
-    for (size_t i = 0; i < NAME_SIZE ; i++)
+    for (size_t i = 0; i < NAME_SIZE; i++)
     {
         source->Name[i] = E.Name[i];
     }
@@ -73,9 +74,25 @@ void GenMassRequest(Inquiry **inquiries, int n)
         inquiries[i]->Time = rand() % 10000;
 
         inquiries[i]->P = rand() % 3;
-        printf(">");
-        WriteRequest(inquiries[i]);
-        printf("< ");
+        // printf(">");
+        // WriteRequest(inquiries[i]);
+        // printf("< ");
+    }
+}
+
+void defineRequest(Inquiry *inquiry, Queue *F0, Queue *F1, Queue *F2)
+{
+    if (inquiry->P == 0)
+    {
+        PutQueue(F0, *inquiry);
+    }
+    else if (inquiry->P == 1)
+    {
+        PutQueue(F1, *inquiry);
+    }
+    else if (inquiry->P == 2)
+    {
+        PutQueue(F2, *inquiry);
     }
 }
 
@@ -83,25 +100,13 @@ void RequestDistribution(Inquiry **inquiries, Queue *F0, Queue *F1, Queue *F2, i
 {
     for (size_t i = 0; i < n; i++)
     {
-        if (inquiries[i]->P == 0)
-        {
-            PutQueue(F0, *inquiries[i]);
-        }
-        else if (inquiries[i]->P == 1)
-        {
-            PutQueue(F1, *inquiries[i]);
-        }
-        else if (inquiries[i]->P == 2)
-        {
-            PutQueue(F2, *inquiries[i]);
-        }
+        defineRequest(inquiries[i], F0, F1, F2);
     }
 }
 
 void startModelOfProcessingSystem(int n)
 {
     srand(time(NULL));
-    Inquiry P1, tmp0, tmp1;
     Inquiry **inquaries = (Inquiry **)malloc(n * sizeof(Inquiry *)); // выделение памяти на массив
     for (size_t i = 0; i < n; i++)
     {
@@ -117,76 +122,66 @@ void startModelOfProcessingSystem(int n)
     InitQueue(&F2);
     Stack S; // Объявление и инициализация стека
     InitStack(&S);
-    RequestDistribution(inquaries, &F0, &F1, &F2, n); // распределили запросы по очередям
 
+    RequestDistribution(inquaries, &F0, &F1, &F2, n); // распределили запросы по очередям
     WriteTable(&S, &F0, &F1, &F2, n);
-    while (EmptyStack(&S) || !EmptyQueue(&F0) ||
+    std::cout << std::endl; // удалить
+    Inquiry inquaryForCalculate[] = {
+        {"qq1231230",
+         42, 0},
+        {"qq1231231",
+         4242, 1}};
+
+    Inquiry processedInquiry;
+
+    while (!EmptyStack(&S) || !EmptyQueue(&F0) ||
            !EmptyQueue(&F1) || !EmptyQueue(&F2))
     {
         if (!processing)
         {
-            if (!EmptyStack(&S))
+            if (!EmptyQueue(&F0))
             {
-                GetStack(&S, &tmp0);
-                processing = 1;
-            }
-            else if (!EmptyQueue(&F0))
-            {
-                GetQueue(&F0, &tmp0);
+                GetQueue(&F0, &processedInquiry);
                 processing = 1;
             }
             else if (!EmptyQueue(&F1))
             {
-                GetQueue(&F1, &tmp0);
+                GetQueue(&F1, &processedInquiry);
                 processing = 1;
             }
             else if (!EmptyQueue(&F2))
             {
-                GetQueue(&F2, &tmp0);
+                GetQueue(&F2, &processedInquiry);
                 processing = 1;
             }
         }
-        else
+
+        // включ новых запросов
+        if (rand() % 100 >= 50)
         {
-            if (!EmptyStack(&S))
+            defineRequest(&(inquaryForCalculate[rand() % 100 >= 50]), &F0, &F1, &F2);
+        }
+
+        if (processing)
+        {
+            if (!EmptyQueue(&F0) && processedInquiry.P > 0)
             {
-                ReadStack(&S, &tmp1);
-                if (tmp0.P > tmp1.P)
-                {
-                    GetStack(&S, &tmp1);
-                    Inquiry *temp = &tmp0;
-                    tmp0 = tmp1;
-                    tmp1 = *temp;
-                    PutStack(&S, tmp1);
-                }
+                PutStack(&S, processedInquiry);
+                GetQueue(&F0, &processedInquiry);
             }
-            else if (!EmptyQueue(&F0))
+            else if (!EmptyQueue(&F1) && processedInquiry.P > 1)
             {
-                ReadQueue(&F0, &tmp1);
-                if (tmp0.P > tmp1.P)
-                {
-                    PutStack(&S, tmp1);
-                    GetQueue(&F0, &tmp1);
-                }
+                PutStack(&S, processedInquiry);
+                GetQueue(&F1, &processedInquiry);
             }
-            else if (!EmptyQueue(&F1))
+            else if (!EmptyStack(&S))
             {
-                ReadQueue(&F1, &tmp1);
-                if (tmp0.P > tmp1.P)
-                {
-                    PutStack(&S, tmp1);
-                    GetQueue(&F1, &tmp1);
-                }
+                GetStack(&S, &processedInquiry);
             }
-            else if (!EmptyQueue(&F2))
-            {
-                ReadQueue(&F2, &tmp1);
-                if (tmp0.P > tmp1.P)
-                {
-                    PutStack(&S, tmp1);
-                    GetQueue(&F2, &tmp1);
-                }
-            }
+
+            WriteRequest(&processedInquiry);
+            printf(" > ");
+            processing = 0;
         }
     }
 }
