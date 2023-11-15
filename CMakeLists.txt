@@ -44,6 +44,12 @@ add_library(
 )
 
 add_library(
+        mytree
+        mytree/mytree.cpp
+        mytree/mytree.h
+)
+
+add_library(
         tests
         tests/test_mystring.cpp
         tests/test_mystring.h
@@ -68,4 +74,5 @@ target_link_libraries(
         mytranslatornum
         myqueue
         mystack
+        mytree
 )
