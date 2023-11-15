@@ -125,7 +125,7 @@ void startModelOfProcessingSystem(int n)
 
     RequestDistribution(inquaries, &F0, &F1, &F2, n); // распределили запросы по очередям
     WriteTable(&S, &F0, &F1, &F2, n);
-    std::cout << std::endl; // удалить
+
     Inquiry inquaryForCalculate[] = {
         {"qq1231230",
          42, 0},
