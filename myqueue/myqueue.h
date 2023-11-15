@@ -1,17 +1,15 @@
-//
-// Created by dmitr on 14.10.2023.
-//
-
 #ifndef PROJECT_MYQUEUE_H
 #define PROJECT_MYQUEUE_H
 
+#include "solution.h"
+
 const int QUEUE_SIZE = 1000;
 
-typedef int BaseType;
+typedef Inquiry BaseType;
 
-int ErrorQueue;
+extern int QueueError;
 
-enum ExceptionalSituations
+enum ExceptionalSituationsQueue
 {
     QueueOk,
     QueueEmpty,
@@ -26,6 +24,16 @@ typedef struct Queue
     unsigned len;
 } Queue;
 
+void InitQueue(Queue *Q);
 
+void PutQueue(Queue *Q, BaseType E);
+
+void GetQueue(Queue *Q, BaseType *E);
+
+int FullQueue(Queue *Q);
+
+int EmptyQueue(Queue *Q);
+
+void ReadQueue(Queue *Q, BaseType *E);
 
 #endif // PROJECT_MYQUEUE_H

@@ -5,18 +5,20 @@
 #ifndef PROJECT_MYSTACK_H
 #define PROJECT_MYSTACK_H
 
+#include "../myqueue/solution.h"
+
 const int STACK_SIZE = 1000;
 
-int StackError;
+extern int StackError;
 
-enum ExceptionalSituations
+typedef Inquiry BaseType; // Определить тип элемента стека
+
+enum ExceptionalSituationsStack
 {
     StackOk,
     StackOver,
     StackEmpty
 };
-
-typedef int BaseType; // Определить тип элемента стека
 
 typedef struct Stack
 {
@@ -25,15 +27,15 @@ typedef struct Stack
     стека */
 } Stack;
 
-void initStackArray(Stack *S);
+void InitStack(Stack *S);
 
 void PutStack(Stack *S, BaseType E);
 
 void GetStack(Stack *S, BaseType *E);
 
-int isFullStackArray(Stack *S);
+int FullStack(Stack *S);
 
-int isEmptyStackArray(Stack *S);
+int EmptyStack(Stack *S);
 
 void ReadStack(Stack *s, BaseType *E);
 
