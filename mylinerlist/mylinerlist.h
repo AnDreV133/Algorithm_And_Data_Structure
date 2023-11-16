@@ -1,7 +1,3 @@
-//
-// Created by dmitr on 21.10.2023.
-//
-
 #ifndef ALGORITHM_AND_DATA_STRUCTURE_MYLINERLIST_H
 #define ALGORITHM_AND_DATA_STRUCTURE_MYLINERLIST_H
 
@@ -26,8 +22,6 @@ typedef struct List {
     ptrel ptr; // рабочий указатель
     unsigned n; // длинна списка
 } List;
-
-
 
 void InitList(List *L);
 
